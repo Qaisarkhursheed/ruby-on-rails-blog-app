@@ -48,6 +48,17 @@ gem "bootsnap", require: false
 group :development, :test do
   # See https://guides.rubyonrails.org/debugging_rails_applications.html#debugging-with-the-debug-gem
   gem "debug", platforms: %i[ mri mingw x64_mingw ]
+  # Byebug is a popular Ruby gem that provides a powerful debugging tool for Ruby 
+  # and Ruby on Rails applications. It allows developers to pause the 
+  # execution of their code at any point and interactively examine the 
+  # program state, evaluate expressions, and step through code line by line.
+  # Byebug provides a command-line interface that allows developers to set breakpoints,
+  # display variable values, and navigate through their code. It also supports advanced debugging features such as conditional breakpoints, 
+  # post-mortem debugging, and remote debugging.
+  # Byebug is often used by Ruby and Rails developers to troubleshoot and 
+  # debug complex applications, diagnose errors, and optimize performance.
+  # It can be used both in development and production environments, and can be integrated with popular text editors and IDEs like VS Code, Sublime Text, and RubyMine.
+  gem 'byebug'
 end
 
 group :development do
