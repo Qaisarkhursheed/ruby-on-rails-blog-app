@@ -22,3 +22,7 @@ Things you may want to cover:
 * Deployment instructions
 
 * ...
+
+# Issues
+    If you will having trouble while pushing to heroku please try following command 
+        `bundle lock --add-platform x86_64-linux`
