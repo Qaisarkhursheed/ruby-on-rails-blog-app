@@ -20,8 +20,7 @@ Things you may want to cover:
 * Services (job queues, cache servers, search engines, etc.)
 
 * Deployment instructions
-
-* ...
+* The front-end: Updating articles functionality
 
 # Issues
     If you will having trouble while pushing to heroku please try following command 
